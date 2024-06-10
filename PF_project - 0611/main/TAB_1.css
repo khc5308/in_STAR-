@@ -1,0 +1,130 @@
+/* select 배치 */
+.TAB .select {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50px;
+  left: 50%;
+  justify-content: space-between;
+}
+.TAB .select button {
+  display: inline-block;
+  margin: 0 50px;
+  z-index: 1;
+}
+
+/* 버튼들 중앙 배치 */
+.box .Photo_select {
+  position: fixed;
+  width: 947px;
+  height: 432px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 버튼 세부 위치 */
+.box .INSTAGRAM_button {
+  top: 0;
+  left: 542px;
+}
+.box .WE_button {
+  top: 338px;
+  left: 0;
+}
+.box .OTHER_button {
+  top: 338px;
+  left: 542px;
+}
+.box .CONCEPT_button {
+  top: 0;
+  left: 0;
+}
+
+/* select 스타일링 */
+.TAB .select .off {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  position: relative;
+  background-color: #55555555;
+  border-radius: 8px;
+  border: none;
+}
+.TAB .select .on {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 8px;
+  border-color: #000000;
+}
+.select .text-wrapper-dark {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  font-style: normal;
+}
+.select .text-wrapper-bright {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  font-style: normal;
+}
+
+/* Photo_select 스타일링 */
+.box {
+  position: relative;
+}
+.box .Photo_select button {
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #f7f7f7;
+  box-shadow: -4px 8px 20px #0000001a;
+  position: absolute;
+}
+.box .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+/* hover */
+.TAB .select .off:hover {
+  background-color: #00000055;
+  z-index: 2;
+}
+.box .Photo_select button:hover {
+  background-color: #55555555;
+}
