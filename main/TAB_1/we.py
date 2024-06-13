@@ -49,11 +49,11 @@ while True:
         except :
             print(f"게시물 처리 중 오류 발생, 속도를 줄여보는거 추천")
 
-    # 더 많은 콘텐츠를 로드하기 위해 스크롤 다운
+
     scroll_down()
 
-    # 종료 조건 확인 (자신의 조건에 맞게 설정 가능)
-    if len(media_data) >= post_cnt:  # 일단 이거 게시물 
+    # 종료 조건 확인 
+    if len(media_data) >= post_cnt: 
         break
 
 # 브라우저 닫기
