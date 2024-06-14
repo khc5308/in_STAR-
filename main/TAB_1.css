@@ -23,7 +23,7 @@
 }
 
 /* 버튼 세부 위치 */
-.box .INSTAGRAM_button {
+/* .box .INSTAGRAM_button {
   top: 0;
   left: 542px;
 }
@@ -38,7 +38,19 @@
 .box .CONCEPT_button {
   top: 0;
   left: 0;
+} */
+
+.box .WE_button {
+  top: 40%;
+  left: 0;
 }
+.box .OTHER_button {
+  top: 40%;
+  left: 542px;
+}
+
+
+
 
 /* select 스타일링 */
 .TAB .select .off {
